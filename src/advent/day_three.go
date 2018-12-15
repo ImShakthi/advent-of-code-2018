@@ -26,9 +26,9 @@ type Claim struct {
 var pattern = "#(?P<CalimID>[0-9]*)\\s@\\s(?P<X>[0-9]*),(?P<Y>[0-9]*):\\s(?P<ROWS>[0-9]*)x(?P<COLS>[0-9]*)"
 var claimMetaData = regexp.MustCompile(pattern)
 
-// ClaimMatrix is function
-func ClaimMatrix() {
-	fmt.Println("Claim Matrix")
+// NoMatterHowYouSliceIt is function
+func NoMatterHowYouSliceIt() {
+	fmt.Println("No Matter How You Slice It")
 	data := ReadDataFromFile("day_three.txt")
 	noL := len(data)
 	counter := 0

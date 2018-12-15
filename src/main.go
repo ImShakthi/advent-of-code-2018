@@ -2,30 +2,32 @@ package main
 
 import (
 	"advent"
-	"basics"
 	"fmt"
-	"rectangle"
 	//"snippets"
 )
 
 func main() {
+	fmt.Println("------------------------------------------------------------------------")
 	adventOfCode()
+	fmt.Println("------------------------------------------------------------------------")
 }
 
 func adventOfCode() {
 	day := 5
+	fmt.Println("--- Advent of code --- DAY #", day)
 	switch day {
 	case 1:
-		advent.CalcFrequency()
+		advent.ChronalCalibration()
 	case 2:
-		advent.CalcThreshold()
+		advent.InventoryManagementSystem()
 	case 3:
-		advent.ClaimMatrix()
+		advent.NoMatterHowYouSliceIt()
 	case 4:
 		advent.ReposeRecord()
 	case 5:
 		advent.AlchemicalReduction()
+	case 6:
+		advent.ChronalCoordinates()
 	default:
 	}
 }
-

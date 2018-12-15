@@ -4,9 +4,9 @@ import (
 	"fmt"
 )
 
-// CalcThreshold is to calc Threshold
-func CalcThreshold() {
-	fmt.Println("Threshold calculator....")
+// InventoryManagementSystem is to calc Threshold
+func InventoryManagementSystem() {
+	fmt.Println("Inventory Management System....")
 
 	prodIDArr := ReadDataFromFile("day_two.txt")
 	noL := len(prodIDArr)
@@ -49,11 +49,9 @@ func CalcThreshold() {
 			if mismatchMoreOnce && !mismatchMoreThanOnce {
 				result := secProdID[0:breakIndex] + secProdID[breakIndex+1:len(secProdID)]
 				fmt.Println("Part TWO >>> Found ", secProdID, ", result =", result)
-
 			}
 		}
 	}
-
 }
 
 func occurs(charMap map[byte]int, occurence int) bool {

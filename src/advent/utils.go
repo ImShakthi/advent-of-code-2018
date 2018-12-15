@@ -12,7 +12,7 @@ import (
 func ReadDataFromFile(fileName string) (data []string) {
 	fmt.Println("Reading data from file '" + fileName + "'...")
 
-	if file, err := os.Open("/Users/sakthivel/go/src/advent/inputs/" + fileName); err != nil {
+	if file, err := os.Open("/Users/sakthivel/go/advent-of-code-2018/src/advent/inputs/" + fileName); err != nil {
 		log.Fatal(err)
 		defer file.Close()
 	} else if scanner := bufio.NewScanner(file); scanner == nil {

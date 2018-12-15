@@ -5,9 +5,9 @@ import (
 	"strconv"
 )
 
-// CalcFrequency is to calc frequency
-func CalcFrequency() {
-	fmt.Println("Frequency calculator")
+// Chronal Calibration is to calc chronal
+func ChronalCalibration() {
+	fmt.Println("Chronal Calibration")
 
 	data := ReadDataFromFile("day_one.txt")
 	noL := len(data)
