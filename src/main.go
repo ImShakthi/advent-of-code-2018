@@ -13,7 +13,7 @@ func main() {
 }
 
 func adventOfCode() {
-	day := 5
+	day := 8
 	fmt.Println("--- Advent of code --- DAY #", day)
 	switch day {
 	case 1:
@@ -28,6 +28,10 @@ func adventOfCode() {
 		advent.AlchemicalReduction()
 	case 6:
 		advent.ChronalCoordinates()
+	case 7:
+		advent.TheSumofItsParts()
+	case 8:
+		advent.MemoryManeuver()
 	default:
 	}
 }
