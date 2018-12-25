@@ -32,3 +32,26 @@ func ConvInt(data string) int {
 	number, _ := strconv.Atoi(data)
 	return number
 }
+
+// RemoveAtIndex to remove element in the given list
+func RemoveAtIndex(list []int, index int) []int {
+	target := []int{}
+	target = append(target, (list[:index])...)
+	if (index + 1) <= len(list) {
+		target = append(target, (list[index+1:])...)
+	}
+	return target
+}
+
+// AppendAtIndex to append element in the given list
+func AppendAtIndex(list []int, index int, value int) []int {
+
+	target := []int{}
+	target = append(target, (list[:index])...)
+	target = append(target, value)
+
+	if (index + 1) <= len(list) {
+		target = append(target, (list[index:])...)
+	}
+	return target
+}

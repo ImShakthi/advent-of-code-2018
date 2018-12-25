@@ -13,6 +13,7 @@ Following are the list of problems in advent of code in day wise.
 6. [Chronal Coordinates](https://github.com/ImShakthi/advent-of-code-2018/blob/master/src/advent/day_six.go)
 7. [The Sum of Its Parts](https://github.com/ImShakthi/advent-of-code-2018/blob/master/src/advent/day_seven.go)
 8. [Memory Maneuver](https://github.com/ImShakthi/advent-of-code-2018/blob/master/src/advent/day_eight.go)
+9. [Marble Mania](https://github.com/ImShakthi/advent-of-code-2018/blob/master/src/advent/day_nine.go)
 
 Coded with passion and love.
 
