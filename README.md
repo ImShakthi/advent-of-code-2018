@@ -1,7 +1,6 @@
-### [Advent of code 2018 AOC](https://adventofcode.com/)
-Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. I have sloved them in Go and you find in the `advent` package inside `src`.
+### [Advent of code 2018 AOC](https://imshakthi.github.io/advent-of-code-2018)
+[Advent of Code](https://adventofcode.com/) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. I have sloved them in Go and you can find them, in `advent` package inside `src` folder.
 
-#### [My GitHub Page for Advent of Code 2018](https://imshakthi.github.io/advent-of-code-2018/)
 ---
 #### List of problems 
 Following are the list of problems in advent of code in day wise.
@@ -15,6 +14,6 @@ Following are the list of problems in advent of code in day wise.
 8. [Memory Maneuver](https://github.com/ImShakthi/advent-of-code-2018/blob/master/src/advent/day_eight.go)
 9. [Marble Mania](https://github.com/ImShakthi/advent-of-code-2018/blob/master/src/advent/day_nine.go)
 
-Coded with passion and love.
+> Coded with passion and love.
 
 ---
